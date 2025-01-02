@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: build
+    scripts:
+        build:
+            - yarn build
+        deploy:
+            - yarn install
+    subdomain: react-dashboard-new
+name: react-dashboard-new
+region: us-east-1
+yamlVersion: 2
