@@ -5,7 +5,7 @@ frontend:
         build:
             - yarn build
         deploy:
-            - yarn install
+            - yarn build
     subdomain: react-dashboard-new
 name: react-dashboard-new
 region: us-east-1
